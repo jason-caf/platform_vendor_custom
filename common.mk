@@ -168,4 +168,6 @@ endif
 # include sounds from pixel
 $(call inherit-product-if-exists, vendor/custom/google/sounds/PixelSounds.mk)
 
+$(call inherit-product, external/google-fonts/google-sans/fonts.mk)
+
 $(call inherit-product-if-exists, vendor/extra/product.mk)
