@@ -38,6 +38,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Fix Dialer
+PRODUCT_COPY_FILES +=  \
+    vendor/custom/prebuilt/common/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/common/bin/sysinit:system/bin/sysinit \
