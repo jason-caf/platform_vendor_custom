@@ -165,4 +165,7 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
 endif
 
+# include sounds from pixel
+$(call inherit-product-if-exists, vendor/custom/google/sounds/PixelSounds.mk)
+
 $(call inherit-product-if-exists, vendor/extra/product.mk)

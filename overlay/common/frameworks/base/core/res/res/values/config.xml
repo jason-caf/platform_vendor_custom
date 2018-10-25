@@ -26,7 +26,7 @@
 
     <string name="config_mms_user_agent">AOSP</string>
     <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
-
+    
     <!-- Controls the WiFi wakeup feature.
           0 = Not available.
           1 = Available.
