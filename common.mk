@@ -54,6 +54,13 @@ PRODUCT_PACKAGES += \
     GPixelLauncher \
     Gwebview
 
+# Google Lens
+PRODUCT_COPY_FILES += \
+    vendor/custom/prebuilt/common/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml \
+    vendor/custom/prebuilt/common/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
+    vendor/custom/prebuilt/common/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
+    vendor/custom/prebuilt/common/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/common/bin/sysinit:system/bin/sysinit \
